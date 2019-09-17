@@ -1,5 +1,10 @@
-## Put comments here that give an overall description of what your
-## functions do
+## makeCacheMatrix is the backend function that gets called individually
+## to create the inverse of the matrix. This is the function that does the solve()
+## we wont necesarilly be calling this one.
+##
+## cacheSolve will control the cache when the function is called
+## this is our external function
+
 
 ## This function will create an object with a special matrix with the inverse of the matrix
 makeCacheMatrix <- function(x = matrix()) {
